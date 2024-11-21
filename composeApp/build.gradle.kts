@@ -92,6 +92,8 @@ kotlin {
             implementation(libs.coil.compose)
             implementation(libs.coil.mp)
             implementation(libs.coil.network.ktor)
+            implementation(libs.kotlin.compose.compiler.plugin.embeddable)
+
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
